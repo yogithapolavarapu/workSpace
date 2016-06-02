@@ -93,6 +93,7 @@ $(document).ready(function() {
 
         case"10n":
           $("body").css("background-image",background.rainN);
+	  break;
         case "11d":
         case "11n":
           $("body").css("background-image", background.storm);
