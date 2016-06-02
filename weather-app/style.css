@@ -1,0 +1,54 @@
+body{
+  padding-top:150px;
+  text-align:center;
+  height=100%;
+  width=100%;
+  background: fixed center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   }
+.heart{
+  color:red;
+}
+/*because we cant have both at the same time*/
+.fah{
+  display:none;
+}
+/*for fahrenheit by default
+.cel{
+  display:none;
+}*/
+.app
+{
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 300px;
+  height: 150px;
+  margin:auto;
+  color:white;
+  font-weight:700;
+/*}
+.temp{
+ */ cursor: pointer;
+}
+
+
+.temperature{
+ margin-bottom: 5px;
+}
+h3 {
+  margin: 10px;
+}
+
+.col h4 {
+  display: inline-block;
+  text-align: left;
+}
+
+footer{
+  color:black;
+  padding:-5px;
+  background: rgba(192, 192, 192, 0.9);
+           
+}
