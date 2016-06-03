@@ -1,0 +1,65 @@
+body{
+ text-align:center; background:url(http://blavity.blavity.netdna-cdn.com/wp-content/uploads/2016/01/Wikipedia.jpg?d600af);
+}
+
+.article{
+  position:relative;
+  width:300px;
+  height:100px;
+  margin:0 auto;
+  top:50px;
+  border:1px #fff solid;
+  border-radius:4px;
+  padding-top:30px;
+  background:rgba(255,255,255,0.3);
+}
+
+button{
+padding-top:30px;
+  position:relative;
+  color:black;
+  background:rgba(255,255,255,0);
+  font-size:14px;
+  border:white;
+}
+
+a,a:hover,a:visited,a:focus{color:black;}
+#search{
+  width:200px;
+  border:0;
+  outline:0;
+  color:black;
+  font-size:12px;
+  border:white;
+}
+.input_effect{
+  position: absolute;
+  width: 80%;
+  left:50px;
+  text-align: left;
+  pointer-events: none;
+  color:black;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  font-weight:400;
+}
+
+.list{
+  width:100%;
+  position:relative;
+  margin:auto;
+  background:white;
+}
+.under_effect {
+  position: absolute;
+  left: 50px;
+  width: 0; height:2px;
+  bottom:33px;
+  background-color: black;
+  transition: width 0.2s;
+  -webkit-transition: width 0.2s;
+}
+footer{
+  color:black;
+  text-align:left;
+}
