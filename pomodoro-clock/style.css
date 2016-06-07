@@ -4,6 +4,11 @@ body{
    font-family: Inconsolato;
   text-align:center;
 }
+.title{
+   font-family: tangerine;
+   font-size:64px;
+
+font-weight:700;}
 .pause
 {
   display:none;
@@ -14,7 +19,7 @@ body{
   margin: 50px auto 0;
   width:350px;
   font-size:6em;
-  font family:Tangerine;
+  
 }
 .heart{
   color:red;
