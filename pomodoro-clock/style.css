@@ -1,0 +1,62 @@
+body{
+  background: black;
+  color:rgb(128, 153, 51);
+   font-family: Inconsolato;
+  text-align:center;
+}
+.pause
+{
+  display:none;
+}
+
+.time{
+  display:block;
+  margin: 50px auto 0;
+  width:350px;
+  font-size:6em;
+  font family:Tangerine;
+}
+.heart{
+  color:red;
+}
+.btns{
+  padding:8px 14px;
+  border-radius:8px;
+  font-size:36px;
+  margin-top:20px;
+}
+.btns:hover{
+  color:#ecf0f1;
+}
+
+
+#start:hover{
+  background:rgba(22, 160, 133,1.0);
+}
+#pause{
+  background:rgba(241, 196, 15,0.9);
+}
+#pause:hover{
+  background:rgba(241, 196, 15,1.0);
+}
+
+.number{
+  font-size:36px;
+}
+
+
+.relax_head, .work_head{
+  padding-top:10px;
+  font-size:48px;
+  font-family:Tangerine;
+}
+.work_thingy{
+  padding-top:10px;
+  font-size:32px;
+}
+.info{
+  font-size:32px;
+  height:45px;
+  font-style:italic;
+  margin-bottom:20px;
+}
