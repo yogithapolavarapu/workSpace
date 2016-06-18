@@ -84,7 +84,7 @@ function placeQuote(){
   
   
   
-      $("#twitter_share").click(function() { var url= "https://twitter.com/intent/tweet?url=yogithapolavarapu.github.io/workSpace/random_quotes&text=" + document.getElementById('quote').innerHTML+document.getElementById('character').innerHTML;
+      $("#twitter_share").click(function() { var url= "https://twitter.com/intent/tweet?url=http://yogithapolavarapu.github.io/workSpace/random_quotes/&text=" + document.getElementById('quote').innerHTML+document.getElementById('character').innerHTML;
       window.open(url);
 
     });
