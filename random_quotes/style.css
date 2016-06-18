@@ -1,5 +1,5 @@
 body{
-  padding:70px;
+  padding:140px;
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,7 +14,7 @@ body{
 }*/
 
 .quote-box{
-  padding-top:30px;
+  padding-top:10px;
   background-color: rgba(0, 0, 0, 0.7);
   max-width: 500px;
   height: 200px;
