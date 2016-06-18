@@ -56,7 +56,7 @@ $(document).ready(function(){
     {
       quote:"People don't have power over us. We give it to them.",
       character:" - Dr.Martin, Lucifer",
-      show:"url(http://www.fox.com/sites/default/files/video-image-thumb/L_110_Lucifer_and_Dr_Linda_tagged_1280x720_618926147890.jpg)"
+      show:"url(http://www.yourtvlink.com/wp-content/uploads/2016/03/rachael1-1060x596.jpg)"
     },
     {
       quote:"Act like a child, get treated like a child. ",
