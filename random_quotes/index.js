@@ -135,7 +135,7 @@ $(document).ready(function(){
       show:"url(http://static2.hypable.com/wp-content/uploads/2013/09/Teen-Wolf-Season-3-Chris-Argent-JR-Bourne.jpg)"
     },
     {
-      quote:" Do you honestly believe that I don`t have a plan B? And if that fails a plan C and a plan D. You know how the alphabet works don`t you.",
+      quote:" Do you honestly believe that I don't have a plan B? And if that fails a plan C and a plan D. You know how the alphabet works don't you.",
       character:"-Katherine Pierce, The Vampire Diaries",
       show:"url(http://data.whicdn.com/images/61003647/large.gif)"
     },
