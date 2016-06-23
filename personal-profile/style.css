@@ -1,0 +1,193 @@
+
+              
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300);
+
+.heart{
+  color:red;
+}
+.title{
+  color:black;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;    
+}
+
+body,h1,h2,h3,h4,h5, {
+    font-family: "Lato","Comfortaa",Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 30px;
+    border-bottom: 0px outset rgba(80, 75, 90, 0.9);
+    background: rgba(107,132,113, 0.3);
+}
+
+.topnav ul.navbar-nav li a {
+background: rgba(128, 128, 118,0.0);
+color: #111111;
+}
+
+.topnav ul.navbar-nav li a:hover,
+.topnav ul.navbar-nav li a:focus {
+background: rgba(255, 255, 255, 0.5);
+color: #232323;
+}
+
+.intro-header {
+    height: 555px;  
+    padding-top: 50px;
+    text-align: center;
+    background: url('http://images.123hdwallpapers.com/20151203/branches-nature-light-sun-rays-1920x1080.jpg') no-repeat center center fixed;
+    
+    background-size: cover;
+    height: 755px;
+      -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+-moz-filter: blur(5px);
+  filter: blur(15px);
+}
+
+.bg-overlay2 {
+  background:rgba(0,0,0,0);
+  height: 855px;
+}
+
+.about-message{
+  color:black;
+     position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
+ font-size:20px;
+}
+
+.section-heading {
+    margin-top: 50px;
+    text-shadow: 2px 1px 2px #000;
+    font-size: 5em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.about-message {
+    text-shadow: 1px 1px 1px rgba(10,0,0,0.6);
+  color: black;
+  font-size:25px;
+}
+
+section {
+  color: black;
+  background: url('http://www.next51.net/photo/art/grande/8598755-13553212.jpg?v=1448977465') no-repeat center center fixed;
+  background-size: cover;
+}
+
+#below-section {
+  color: #000;
+}
+
+
+
+#portfolio .portfolio-item {
+  margin: 0 0 0px;
+
+  border: 0px rgba(255, 255, 255, 0.6);
+}
+
+#portfolio .portfolio-item:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin:0;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s,
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  
+  color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: center;
+  padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  color: #fff;
+  text-transform: none;
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  margin: 0;
+}
+
+#portfolio * {
+  z-index: 1;
+}
+
+.banner {
+    padding: 100px 0;
+    background: url('http://www.artwallpaperhi.com/thumbnails/detail/20121018/light%20nature%20trees%20mist%201680x1050%20wallpaper_www.artwallpaperhi.com_54.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 455px;
+}
+
+.bg-overlay4 {
+  margin-top: -100px;
+  padding: 100px 0;
+  background: rgba(255,255,255, 0.3);
+  height: 355px;
+}
+
+.contact-para{
+  font-size:30px;
+}
+
+footer {
+    padding: 50px 0;
+    background: rgba(192, 192, 192, 0.9);
+}
+           
+
