@@ -105,7 +105,7 @@ console.log(content1);
     }
   }
   
-  $('#check').click(function(){
+  $('#phrase_check').click(function(){
    
   checkSimilar();
   }); 
