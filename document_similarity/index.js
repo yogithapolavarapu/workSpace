@@ -1,5 +1,8 @@
 //remove duplicates from inputs : percentage out of bounds
 
+
+
+
 $(document).ready(function(){
   clear();
   //array to store words
@@ -10,7 +13,7 @@ $(document).ready(function(){
  var input1,input2;
 
 //similarity checking
-  function checkSimilarTerm(){
+  function checkSimilar(){
       //read the texts
     input1= $("textarea#screen1").val();
     input2=$("textarea#screen2").val();
@@ -62,7 +65,7 @@ console.log(content1);
            var minLength= content2.length;
          }
 
-    //compare both content01 and content 2 for similarities
+    //compare both content1 and content 2 for similarities
     for(var i=0;i<minLength;i++){
       for(var j=0;j<minLength;j++){
         if(content1[i]===content2[j]){
@@ -91,26 +94,25 @@ console.log(content1);
 
   function level(count){
     if(count>75){
-      $('#level').html('similarity level: high');
+      $('#level').html('similarity level:high');
     }
     else if(count>50){
-       $('#level').html('Similarity level: medium');
+       $('#level').html('Similarity level:medium');
     }
     else{
-        $('#level').html('similarity level: low');
+        $('#level').html('similarity level :low');
     }
   }
 
-  $('#term_check').click(function(){
+  $('#check').click(function(){
 
-  checkSimilarTerm();
+  checkSimilar();
   });
   function clear(){
     $('#screen1').val("");
     $('#screen2').val("");
      $('#level').html("");
     $('#percentage').html("");
-
   }
   $('#clear').click(function(){
     clear();
