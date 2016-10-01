@@ -1,0 +1,57 @@
+body{
+  background:grey;
+  
+  padding-top:50px;
+}
+.code{
+  color:white;
+}
+.calculator {
+
+  width: 250px;
+  height: 400px;
+  margin: 50px auto 0;
+  padding: 15px 10px;
+  border-radius: 10px;
+   background-image: url(http://i.huffpost.com/gen/1344524/images/o-IS-MATHEMATICS-INVENTED-OR-DISCOVERED-facebook.jpg);
+}
+
+.screen {
+  width: 200px;
+  height: 70px;
+  background: white;
+  margin: 15px;
+  border-radius: 2px;
+  text-align: right;
+  padding-top: 25px;
+  padding-left: 15px;
+
+ 
+}
+
+.button {
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+  
+  background: -webkit-linear-gradient(top, #bebebe, #d4d4d4);
+  margin: 10px auto 20px auto;
+  border-radius: 4px;
+  padding-top: 5px;
+  box-shadow: 0 1px 2px #000;
+  border-bottom: 1px solid #555;
+  position: relative;
+}
+
+ .clear_b{width: 90px;
+  height: 30px;
+   margin-left: 20px;
+}
+.button:hover {
+  background:#737373;
+}
+
+
+.col-xs-3 {
+  padding: 0;
+}

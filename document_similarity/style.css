@@ -1,20 +1,17 @@
 body{
-  background-color:#007399;
-  color:white;
+/*  background-image: url(documents2.jpg);
+  color:white;*/
 }
 textarea{
   color:black;
 }
 .btn {
   cursor: pointer;
-
-  background: #007399;
   border-radius: 4px;
   padding-top: 5px;
   position: relative;
   margin:5px;
-  font-size:16px;
-  text-alig:center;
+  font-size:25px;
 }
 .buttons{
   text-align:center;
