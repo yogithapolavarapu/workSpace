@@ -1,6 +1,8 @@
 body{
 /*  background-image: url(documents2.jpg);
   color:white;*/
+  font-size: 18px;
+
 }
 textarea{
   color:black;
@@ -11,7 +13,7 @@ textarea{
   padding-top: 5px;
   position: relative;
   margin:5px;
-  font-size:25px;
+  font-size:20px;
 }
 .buttons{
   text-align:center;
